@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4843FE8F1CB27EBF0018B781 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843FE8E1CB27EBF0018B781 /* AppDelegate.swift */; };
+		4843FE911CB27EBF0018B781 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843FE901CB27EBF0018B781 /* ViewController.swift */; };
+		4843FE941CB27EBF0018B781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4843FE921CB27EBF0018B781 /* Main.storyboard */; };
+		4843FE961CB27EBF0018B781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4843FE951CB27EBF0018B781 /* Assets.xcassets */; };
+		4843FE991CB27EBF0018B781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4843FE971CB27EBF0018B781 /* LaunchScreen.storyboard */; };
+		4843FEA41CB27EBF0018B781 /* SwiftLocationManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843FEA31CB27EBF0018B781 /* SwiftLocationManagerTests.swift */; };
+		4843FEAF1CB27EBF0018B781 /* SwiftLocationManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843FEAE1CB27EBF0018B781 /* SwiftLocationManagerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4843FEA01CB27EBF0018B781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4843FE831CB27EBE0018B781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4843FE8A1CB27EBE0018B781;
+			remoteInfo = SwiftLocationManager;
+		};
+		4843FEAB1CB27EBF0018B781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4843FE831CB27EBE0018B781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4843FE8A1CB27EBE0018B781;
+			remoteInfo = SwiftLocationManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4843FE8B1CB27EBE0018B781 /* SwiftLocationManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLocationManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4843FE8E1CB27EBF0018B781 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4843FE901CB27EBF0018B781 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4843FE931CB27EBF0018B781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4843FE951CB27EBF0018B781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4843FE981CB27EBF0018B781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4843FE9A1CB27EBF0018B781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4843FE9F1CB27EBF0018B781 /* SwiftLocationManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLocationManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4843FEA31CB27EBF0018B781 /* SwiftLocationManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLocationManagerTests.swift; sourceTree = "<group>"; };
+		4843FEA51CB27EBF0018B781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4843FEAA1CB27EBF0018B781 /* SwiftLocationManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLocationManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4843FEAE1CB27EBF0018B781 /* SwiftLocationManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLocationManagerUITests.swift; sourceTree = "<group>"; };
+		4843FEB01CB27EBF0018B781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4843FE881CB27EBE0018B781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4843FE9C1CB27EBF0018B781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4843FEA71CB27EBF0018B781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4843FE821CB27EBE0018B781 = {
+			isa = PBXGroup;
+			children = (
+				4843FE8D1CB27EBF0018B781 /* SwiftLocationManager */,
+				4843FEA21CB27EBF0018B781 /* SwiftLocationManagerTests */,
+				4843FEAD1CB27EBF0018B781 /* SwiftLocationManagerUITests */,
+				4843FE8C1CB27EBE0018B781 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4843FE8C1CB27EBE0018B781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4843FE8B1CB27EBE0018B781 /* SwiftLocationManager.app */,
+				4843FE9F1CB27EBF0018B781 /* SwiftLocationManagerTests.xctest */,
+				4843FEAA1CB27EBF0018B781 /* SwiftLocationManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4843FE8D1CB27EBF0018B781 /* SwiftLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				4843FE8E1CB27EBF0018B781 /* AppDelegate.swift */,
+				4843FE901CB27EBF0018B781 /* ViewController.swift */,
+				4843FE921CB27EBF0018B781 /* Main.storyboard */,
+				4843FE951CB27EBF0018B781 /* Assets.xcassets */,
+				4843FE971CB27EBF0018B781 /* LaunchScreen.storyboard */,
+				4843FE9A1CB27EBF0018B781 /* Info.plist */,
+			);
+			path = SwiftLocationManager;
+			sourceTree = "<group>";
+		};
+		4843FEA21CB27EBF0018B781 /* SwiftLocationManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4843FEA31CB27EBF0018B781 /* SwiftLocationManagerTests.swift */,
+				4843FEA51CB27EBF0018B781 /* Info.plist */,
+			);
+			path = SwiftLocationManagerTests;
+			sourceTree = "<group>";
+		};
+		4843FEAD1CB27EBF0018B781 /* SwiftLocationManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4843FEAE1CB27EBF0018B781 /* SwiftLocationManagerUITests.swift */,
+				4843FEB01CB27EBF0018B781 /* Info.plist */,
+			);
+			path = SwiftLocationManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4843FE8A1CB27EBE0018B781 /* SwiftLocationManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4843FEB31CB27EBF0018B781 /* Build configuration list for PBXNativeTarget "SwiftLocationManager" */;
+			buildPhases = (
+				4843FE871CB27EBE0018B781 /* Sources */,
+				4843FE881CB27EBE0018B781 /* Frameworks */,
+				4843FE891CB27EBE0018B781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftLocationManager;
+			productName = SwiftLocationManager;
+			productReference = 4843FE8B1CB27EBE0018B781 /* SwiftLocationManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4843FE9E1CB27EBF0018B781 /* SwiftLocationManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4843FEB61CB27EBF0018B781 /* Build configuration list for PBXNativeTarget "SwiftLocationManagerTests" */;
+			buildPhases = (
+				4843FE9B1CB27EBF0018B781 /* Sources */,
+				4843FE9C1CB27EBF0018B781 /* Frameworks */,
+				4843FE9D1CB27EBF0018B781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4843FEA11CB27EBF0018B781 /* PBXTargetDependency */,
+			);
+			name = SwiftLocationManagerTests;
+			productName = SwiftLocationManagerTests;
+			productReference = 4843FE9F1CB27EBF0018B781 /* SwiftLocationManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4843FEA91CB27EBF0018B781 /* SwiftLocationManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4843FEB91CB27EBF0018B781 /* Build configuration list for PBXNativeTarget "SwiftLocationManagerUITests" */;
+			buildPhases = (
+				4843FEA61CB27EBF0018B781 /* Sources */,
+				4843FEA71CB27EBF0018B781 /* Frameworks */,
+				4843FEA81CB27EBF0018B781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4843FEAC1CB27EBF0018B781 /* PBXTargetDependency */,
+			);
+			name = SwiftLocationManagerUITests;
+			productName = SwiftLocationManagerUITests;
+			productReference = 4843FEAA1CB27EBF0018B781 /* SwiftLocationManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4843FE831CB27EBE0018B781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rnning;
+				TargetAttributes = {
+					4843FE8A1CB27EBE0018B781 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4843FE9E1CB27EBF0018B781 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4843FE8A1CB27EBE0018B781;
+					};
+					4843FEA91CB27EBF0018B781 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4843FE8A1CB27EBE0018B781;
+					};
+				};
+			};
+			buildConfigurationList = 4843FE861CB27EBE0018B781 /* Build configuration list for PBXProject "SwiftLocationManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4843FE821CB27EBE0018B781;
+			productRefGroup = 4843FE8C1CB27EBE0018B781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4843FE8A1CB27EBE0018B781 /* SwiftLocationManager */,
+				4843FE9E1CB27EBF0018B781 /* SwiftLocationManagerTests */,
+				4843FEA91CB27EBF0018B781 /* SwiftLocationManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4843FE891CB27EBE0018B781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4843FE991CB27EBF0018B781 /* LaunchScreen.storyboard in Resources */,
+				4843FE961CB27EBF0018B781 /* Assets.xcassets in Resources */,
+				4843FE941CB27EBF0018B781 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4843FE9D1CB27EBF0018B781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4843FEA81CB27EBF0018B781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4843FE871CB27EBE0018B781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4843FE911CB27EBF0018B781 /* ViewController.swift in Sources */,
+				4843FE8F1CB27EBF0018B781 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4843FE9B1CB27EBF0018B781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4843FEA41CB27EBF0018B781 /* SwiftLocationManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4843FEA61CB27EBF0018B781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4843FEAF1CB27EBF0018B781 /* SwiftLocationManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4843FEA11CB27EBF0018B781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4843FE8A1CB27EBE0018B781 /* SwiftLocationManager */;
+			targetProxy = 4843FEA01CB27EBF0018B781 /* PBXContainerItemProxy */;
+		};
+		4843FEAC1CB27EBF0018B781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4843FE8A1CB27EBE0018B781 /* SwiftLocationManager */;
+			targetProxy = 4843FEAB1CB27EBF0018B781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4843FE921CB27EBF0018B781 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4843FE931CB27EBF0018B781 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4843FE971CB27EBF0018B781 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4843FE981CB27EBF0018B781 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4843FEB11CB27EBF0018B781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4843FEB21CB27EBF0018B781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4843FEB41CB27EBF0018B781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftLocationManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lengshengren.SwiftLocationManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4843FEB51CB27EBF0018B781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftLocationManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lengshengren.SwiftLocationManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4843FEB71CB27EBF0018B781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftLocationManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lengshengren.SwiftLocationManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLocationManager.app/SwiftLocationManager";
+			};
+			name = Debug;
+		};
+		4843FEB81CB27EBF0018B781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftLocationManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lengshengren.SwiftLocationManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLocationManager.app/SwiftLocationManager";
+			};
+			name = Release;
+		};
+		4843FEBA1CB27EBF0018B781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftLocationManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lengshengren.SwiftLocationManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftLocationManager;
+			};
+			name = Debug;
+		};
+		4843FEBB1CB27EBF0018B781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwiftLocationManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lengshengren.SwiftLocationManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwiftLocationManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4843FE861CB27EBE0018B781 /* Build configuration list for PBXProject "SwiftLocationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4843FEB11CB27EBF0018B781 /* Debug */,
+				4843FEB21CB27EBF0018B781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4843FEB31CB27EBF0018B781 /* Build configuration list for PBXNativeTarget "SwiftLocationManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4843FEB41CB27EBF0018B781 /* Debug */,
+				4843FEB51CB27EBF0018B781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4843FEB61CB27EBF0018B781 /* Build configuration list for PBXNativeTarget "SwiftLocationManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4843FEB71CB27EBF0018B781 /* Debug */,
+				4843FEB81CB27EBF0018B781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4843FEB91CB27EBF0018B781 /* Build configuration list for PBXNativeTarget "SwiftLocationManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4843FEBA1CB27EBF0018B781 /* Debug */,
+				4843FEBB1CB27EBF0018B781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4843FE831CB27EBE0018B781 /* Project object */;
+}
