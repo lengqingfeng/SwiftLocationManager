@@ -14,6 +14,9 @@
 		4843FE991CB27EBF0018B781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4843FE971CB27EBF0018B781 /* LaunchScreen.storyboard */; };
 		4843FEA41CB27EBF0018B781 /* SwiftLocationManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843FEA31CB27EBF0018B781 /* SwiftLocationManagerTests.swift */; };
 		4843FEAF1CB27EBF0018B781 /* SwiftLocationManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843FEAE1CB27EBF0018B781 /* SwiftLocationManagerUITests.swift */; };
+		4843FEC11CB27FF10018B781 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4843FEC01CB27FF10018B781 /* CoreLocation.framework */; };
+		4843FEC31CB287500018B781 /* SwiftLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843FEC21CB287500018B781 /* SwiftLocationManager.swift */; };
+		4843FEC51CB2AC5E0018B781 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4843FEC41CB2AC5E0018B781 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		4843FEAA1CB27EBF0018B781 /* SwiftLocationManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLocationManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4843FEAE1CB27EBF0018B781 /* SwiftLocationManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLocationManagerUITests.swift; sourceTree = "<group>"; };
 		4843FEB01CB27EBF0018B781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4843FEC01CB27FF10018B781 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4843FEC21CB287500018B781 /* SwiftLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftLocationManager.swift; sourceTree = SOURCE_ROOT; };
+		4843FEC41CB2AC5E0018B781 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4843FEC51CB2AC5E0018B781 /* MapKit.framework in Frameworks */,
+				4843FEC11CB27FF10018B781 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +85,8 @@
 		4843FE821CB27EBE0018B781 = {
 			isa = PBXGroup;
 			children = (
+				4843FEC41CB2AC5E0018B781 /* MapKit.framework */,
+				4843FEC01CB27FF10018B781 /* CoreLocation.framework */,
 				4843FE8D1CB27EBF0018B781 /* SwiftLocationManager */,
 				4843FEA21CB27EBF0018B781 /* SwiftLocationManagerTests */,
 				4843FEAD1CB27EBF0018B781 /* SwiftLocationManagerUITests */,
@@ -97,6 +107,7 @@
 		4843FE8D1CB27EBF0018B781 /* SwiftLocationManager */ = {
 			isa = PBXGroup;
 			children = (
+				4843FEC21CB287500018B781 /* SwiftLocationManager.swift */,
 				4843FE8E1CB27EBF0018B781 /* AppDelegate.swift */,
 				4843FE901CB27EBF0018B781 /* ViewController.swift */,
 				4843FE921CB27EBF0018B781 /* Main.storyboard */,
@@ -258,6 +269,7 @@
 			files = (
 				4843FE911CB27EBF0018B781 /* ViewController.swift in Sources */,
 				4843FE8F1CB27EBF0018B781 /* AppDelegate.swift in Sources */,
+				4843FEC31CB287500018B781 /* SwiftLocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftLocationManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lengshengren.SwiftLocationManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftLocationManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lengshengren.SwiftLocationManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";

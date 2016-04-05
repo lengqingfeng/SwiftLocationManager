@@ -12,9 +12,20 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       SwiftLocationManager.sharedInstance.getUserLocationInfo({ (location) in
+        
+        print(location?.coordinate.latitude)
+        print(location?.coordinate.longitude)
+        
+        }) { (city) in
+        print(city)
+        }
+        
+        if SwiftLocationManager.status == LocationServiceStatus.Disabled {
+            print("请到设置里隐身开启定位服务")
+        }
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
