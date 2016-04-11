@@ -17,8 +17,9 @@ public enum LocationServiceStatus :Int {
     case Disabled
 }
 
-public typealias userCLLocation = ( (location: CLLocation?) -> Void)
-public typealias cityString = ( (city: String? ) -> Void)
+public typealias userCLLocation = ((location: CLLocation?) -> Void)
+public typealias cityString = ((city: String? ) -> Void)
+
 private let DistanceAndSpeedCalculationInterval = 5.0;
 private let SwiftLocationManagerSharedInstance = SwiftLocationManager()
 

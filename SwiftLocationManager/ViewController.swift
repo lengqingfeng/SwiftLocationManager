@@ -12,13 +12,20 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
        SwiftLocationManager.sharedInstance.getUserLocationInfo({ (location) in
         
         print(location?.coordinate.latitude)
         print(location?.coordinate.longitude)
         
         }) { (city) in
-        print(city)
+         print(city)
+        }
+        
+        
+        SwiftLocationManager.sharedInstance.getUserCCLocation { (location) in
+            print(location?.coordinate.latitude)
+            print(location?.coordinate.longitude)
         }
         
         if SwiftLocationManager.status == LocationServiceStatus.Disabled {
