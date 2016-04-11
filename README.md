@@ -2,7 +2,8 @@
 swift locationManager
 
 使用方法
-     获取城市和经纬度
+
+      获取城市和经纬度
        SwiftLocationManager.sharedInstance.getUserLocationInfo({ (location) in
         
         print(location?.coordinate.latitude)
